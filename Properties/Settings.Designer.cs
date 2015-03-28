@@ -39,5 +39,32 @@ namespace Flow_ClientWin.Properties {
                 return ((int)(this["Port"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("FirstClient")]
+        public string ClientID {
+            get {
+                return ((string)(this["ClientID"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public int Heartbeat {
+            get {
+                return ((int)(this["Heartbeat"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("120")]
+        public int PeerTimeout {
+            get {
+                return ((int)(this["PeerTimeout"]));
+            }
+        }
     }
 }
